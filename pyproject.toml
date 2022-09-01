@@ -8,6 +8,7 @@ authors = ["Igor Zanella <igorzanella.dev@gmail.com>"]
 python = "^3.9"
 requests = "^2.28.1"
 python-dotenv = "^0.20.0"
+redis = "^4.3.4"
 
 [tool.poetry.dev-dependencies]
 
