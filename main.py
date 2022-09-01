@@ -47,4 +47,4 @@ while True:
         actual_earned = earned
         send_msg(f"🤑 Nuove entrate, ora: {earned}$")
 
-    time.sleep(60.0 - ((time.time() - starttime) % 60.0))
+    time.sleep(600.0 - ((time.time() - starttime) % 600.0))
