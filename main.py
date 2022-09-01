@@ -38,12 +38,12 @@ actual_earned = 0
 
 while True:
     enrollers = get_enrollers()
-    if actual_enrollers != enrollers:
+    if enrollers is not None and actual_enrollers != enrollers:
         actual_enrollers = enrollers
         send_msg(f"🙋 Nuovo studente, ora: {enrollers} studenti")
 
     earned = get_earned()
-    if actual_earned != earned:
+    if earned is not None and actual_earned != earned:
         actual_earned = earned
         send_msg(f"🤑 Nuove entrate, ora: {earned}$")
 
